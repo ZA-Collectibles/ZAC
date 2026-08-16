@@ -1,27 +1,107 @@
-# ZA Collectibles — Presentation Architecture, Iteration 4
+ZA Collectibles
+ZA Collectibles provides structured collectible appraisal and assessment services, with an initial focus on raw loose coins and certificate-backed gemstones.
 
-Iteration 4 is the **image-led recovery pass**. It restores the photographic richness and object scale of the earlier mock-up-aligned direction while retaining the broader Version 4 information architecture.
+The website supports clients who need help identifying, assessing, documenting and understanding the likely market context of collectible items from the evidence they currently have available.
 
-## What changed
-- Rebuilt the homepage around a genuine full-bleed macro hero rather than a largely graphic/dark field.
-- Added visible photographic atmosphere throughout the core site: hero fields, section backgrounds, editorial bands, large object studies and project imagery.
-- Recalibrated typography towards a Roman/engraved display language combined with modern technical microtype and restrained contemporary body text.
-- Tightened header height, spacing, card density and section rhythm so the site reads as an expensive specialist house rather than a generic HTML template.
-- Reworked the homepage into an image-led narrative: history first, then routes into the house, a tactile inspection challenge, disciplines, presentation transformation, recent work, people and final enquiry.
-- Added a non-AI **LOOK CLOSER / TEST YOUR EYE** interaction using an extreme macro hallmark image and an evidence-based real/reproduction/not-enough-evidence choice.
-- Strengthened Services, Disciplines, Knowledge Centre, Recent Work, About, Appraisals, For Sale, Auctions, Trust, Client and Contact with page-specific imagery rather than a repeated generic template.
-- Preserved the presentation-only philosophy: no appraisal engine, inventory/data schema, authentication backend, auction backend or AI assistant has been added.
-- Preserved SEO/AEO foundations, semantic HTML, structured metadata and staging noindex behaviour.
+Services
+Collectible Assessments
+ZA Collectibles accepts photographs, documents, measurements, certificates and supporting information to produce structured provisional assessments.
 
-## Validation performed
-- All 16 HTML pages checked for missing internal links and missing local assets: **0 errors**.
-- All 16 pages confirmed to load the final visual-recovery stylesheet.
-- JavaScript syntax checked with Node.
-- Desktop renders reviewed for Home, Services, Disciplines, Knowledge Centre, Recent Work, About, Appraisals, For Sale, Auctions, Trust, Client and Contact.
-- Mobile renders reviewed for Home and Services.
+Depending on the item and available evidence, an assessment may include:
 
-## Environment
-This remains a development / investor staging build. Nothing in this iteration has been pushed to GitHub.
+probable identification
+visible condition observations
+authenticity or consistency concerns
+provisional valuation ranges
+confidence indicators
+evidence gaps
+recommended next steps
+specialist escalation where appropriate
+Numismatics
+Initial coin assessment functionality supports raw loose coins, including:
 
+obverse and reverse image review
+edge-image review
+measurements
+visible condition assessment
+cleaning or damage indicators
+probable identification
+authenticity risk indicators
+provisional valuation context
+Certificate-Backed Gemstones
+Initial gemstone assessment functionality supports stones accompanied by grading or laboratory documentation, including:
 
-Iteration 5: the homepage first viewport now uses an explicit photographic image layer, independently vignetted and verified in Chromium before packaging. No GitHub deployment.
+certificate capture
+report-number recording
+stone photographs
+dimensional and carat information
+certificate-to-item consistency review
+treatment or classification information where documented
+provisional valuation context
+A grading certificate is not itself a valuation.
+
+Assessment Levels
+ZA Collectibles supports three levels of intake.
+
+Snapshot Assessment
+For clients who have only one or a few photographs and want an initial indication of what may warrant further attention.
+
+Quick Capture
+For more structured submissions containing basic photographs, notes and available identifying information.
+
+Structured Capture
+For fuller assessments supported by photographs, measurements, certificates, provenance notes, invoices, previous valuations or other relevant evidence.
+
+Valuation Context
+Valuation depends on purpose. Where appropriate, ZA Collectibles may distinguish between:
+
+Collector Market Range
+Dealer Purchase Range
+Liquidation Range
+Insurance Replacement Support
+Auction Estimate
+Estate or Probate Reference
+Provisional ranges are evidence-dependent and may change when better information becomes available.
+
+The Vault
+The Vault presents selected collectible items that may be available for acquisition or private enquiry.
+
+Availability, provenance information, condition notes and acquisition terms are stated on the relevant item page where applicable.
+
+Important Limitations
+Remote assessment has practical limits.
+
+Loose coin authenticity cannot always be confirmed from ordinary photographs alone.
+Precise grading and rare-variety attribution may require specialist examination or improved imaging.
+Gemstone certificates should be considered together with the physical item and available supporting evidence.
+Market evidence changes over time and valuation ranges should be interpreted according to their stated purpose and assessment date.
+Where the available evidence does not support a reliable conclusion, ZA Collectibles may recommend additional evidence or specialist review.
+
+Repository
+This repository contains the current ZA Collectibles website.
+
+Run locally
+From the repository root:
+
+python -m http.server 8080
+
+Then open:
+
+http://localhost:8080
+
+GitHub Pages
+The site can be deployed directly through GitHub Pages from the repository root.
+
+Open Settings → Pages.
+Select Deploy from a branch.
+Select the main branch and / (root).
+Save.
+Current Scope
+The current live focus is:
+
+raw loose coins
+certificate-backed gemstones
+Additional collectible disciplines may be added as the platform develops.
+
+ZA Collectibles
+Collectible assessment, appraisal and acquisition.
