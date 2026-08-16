@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /
-# Staging environment. Replace with robots.production.txt when production domain is live.

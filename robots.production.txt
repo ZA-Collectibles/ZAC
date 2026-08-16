@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://za-collectibles.github.io/ZAC/sitemap.xml
